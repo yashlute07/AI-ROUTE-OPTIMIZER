@@ -1,0 +1,39 @@
+package com.routeoptimizer.model;
+
+public class TravelHistory {
+
+    private int id;
+    private String source;
+    private String destination;
+    private String routeName;
+    private double totalCost;
+
+    public TravelHistory(int id, String source, String destination,
+                         String routeName, double totalCost) {
+        this.id = id;
+        this.source = source;
+        this.destination = destination;
+        this.routeName = routeName;
+        this.totalCost = totalCost;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getSource() {
+        return source;
+    }
+
+    public String getDestination() {
+        return destination;
+    }
+
+    public String getRouteName() {
+        return routeName;
+    }
+
+    public double getTotalCost() {
+        return totalCost;
+    }
+}
